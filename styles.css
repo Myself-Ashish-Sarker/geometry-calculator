@@ -50,7 +50,7 @@ section .main-cards .first {
 
 section .auxiliary-card {
     width: 27rem;
-    height: 28rem;
+    height: 24rem;
     border: 1px solid rgb(16, 144, 216);
     border-radius: 0.5rem;
 }
