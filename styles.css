@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -28,3 +29,29 @@ header .auxiliary-btn {
     color: #fff;
 }
 /* header section */
+
+/* main section */
+section {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .main-cards {
+    display: flex;
+    gap: 1rem;
+}
+section .main-cards .first {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 0.5rem;
+    background: rgb(251, 188, 237);
+}
+
+section .auxiliary-card {
+    width: 27rem;
+    height: 28rem;
+    border: 1px solid rgb(16, 144, 216);
+    border-radius: 0.5rem;
+}
+/* main section */
